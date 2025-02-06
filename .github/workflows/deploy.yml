@@ -26,6 +26,8 @@ jobs:
       - name: Deploy
         run: |
           clasp push
-        
+      - name: Run Apps Script
+        run: |
+          clasp run "myFunction"
 
       
